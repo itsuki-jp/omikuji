@@ -2,7 +2,7 @@ let name;
 let username;
 let userresult;
 
-username = prompt("お名前を教えて下さい。");
+let username = prompt("お名前を教えて下さい。");
 if (username == "") {
     document.getElementById("name").innerHTML = "名無し";
 } else {
